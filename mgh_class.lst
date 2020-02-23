@@ -1,0 +1,28 @@
+CLASS:Magical Girl	MAXLEVEL:20	DEFINE:MagicalGirlLVL|0	BONUS:VAR|MagicalGirlLVL|CL
+CLASS:Magical Girl	HD:6	TYPE:Base.PC
+CLASS:Magical Girl	STARTSKILLPTS:4	CSKILL:Acrobatics|Bluff|TYPE=Craft|Diplomacy|Escape Artist|Handle Animal|Heal|Knowledge (Arcana)|Perception|TYPE=Perform|TYPE=Profession|Sense Motive|Spellcraft
+CLASS:Magical Girl	BONUS:COMBAT|BAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3 BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+CLASS:Magical Girl	!PREALIGN:LG,LN,LE	PRETEXT:Any nonlawful; a magical girl's usual enemies are magical girls themselves, after all.
+## Block:Proficiencies
+1	ABILITY:FEAT|AUTOMATIC|Simple Weapon Proficiency
+1	ABILITY:FEAT|AUTOMATIC|Combat Casting
+## Level Progression
+1	ABILITY:Special Ability|TYPE=Magical Girl Class Feature.SpecialQuality|AUTOMATIC|Magical Girl ~ Tranformation Sequence
+# 2	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Transformation Sequence
+# 2	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ All Night Long
+# 3	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Device
+# #4	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Passive Formula
+# #5	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Active Formula
+# 6	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Improved Transformation
+# 7	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Defense Data
+# #8	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Passive Formula
+# #9	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Active Formula
+# 10	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Rapid Transformation
+# 11	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Improved Defense Data
+# #12	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Passive Formula
+# #13	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Active Formula
+# 14	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Instant Transformation
+# 15	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Suffused Transformation
+# #16	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Passive Formula
+# #17	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Active Formula
+# 18	ABILITY:Special Ability|AUTOMATIC|Magical Girl ~ Environmental Seal

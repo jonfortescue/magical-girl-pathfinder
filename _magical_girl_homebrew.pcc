@@ -1,0 +1,39 @@
+CAMPAIGN:Magical Girl Homebrew
+GAMEMODE:Pathfinder
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Homebrew
+SETTING:My Campaign
+TYPE:Homebrew.PathfinderHomebrew
+PRECAMPAIGN:1,INCLUDES=Core Rulebook
+PUBNAMELONG:My Homebrew
+PUBNAMESHORT:Homebrew
+#PUBNAMEWEB:http://dandwiki.com/
+SOURCELONG:DandD Homebrew Wiki
+SOURCESHORT:DHW
+SOURCEWEB:https://www.dandwiki.com/
+SOURCEDATE:2020-02
+ISOGL:NO
+COPYRIGHT:Magical Girl Homebrew, Copyright Jon Fortescue
+
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+#DATACONTROL:*/_universal/datacontrols_no_align.lst
+#RACE:*/_universal/races.lst
+
+ABILITY:mgh_ability.lst
+CLASS:mgh_class.lst
+# COMPANIONMOD:mpc_companionmods.lst
+# DEITY:mpc_deities.lst
+# DOMAIN:mpc_domains.lst
+# EQUIPMENT:mpc_equip_arms_armor.lst
+# EQUIPMENT:mpc_equip_general.lst
+# EQUIPMOD:mpc_equipmods.lst
+# KIT:mpc_kits.lst
+# LANGUAGE:mpc_languages.lst
+# ARMORPROF:mpc_profs_armor.lst
+# SHIELDPROF:mpc_profs_shield.lst
+# WEAPONPROF:mpc_profs_weapon.lst
+# RACE:mpc_races.lst
+# SKILL:mpc_skills.lst
+# SPELL:mpc_spells.lst
+# TEMPLATE:mpc_templates.lst
