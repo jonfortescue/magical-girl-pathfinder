@@ -20,6 +20,7 @@ COPYRIGHT:Magical Girl Homebrew, Copyright Jon Fortescue
 #DATACONTROL:*/_universal/datacontrols_no_align.lst
 #RACE:*/_universal/races.lst
 
+ABILITYCATEGORY:mgh_abilitycategories.lst
 ABILITY:mgh_ability.lst
 CLASS:mgh_class.lst
 # COMPANIONMOD:mpc_companionmods.lst
