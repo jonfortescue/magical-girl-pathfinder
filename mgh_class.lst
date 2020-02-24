@@ -1,12 +1,20 @@
 CLASS:Magical Girl	MAXLEVEL:20
 CLASS:Magical Girl	DEFINE:MagicalGirlLVL|0	BONUS:VAR|MagicalGirlLVL|CL
+CLASS:Magical Girl	DEFINE:GoodReflexSave|0	DEFINE:GoodFortitudeSave|0
+CLASS:Magical Girl	DEFINE:FocusedShotRangeIncrease|0	DEFINE:BulletHellRangeIncrease|0
+CLASS:Magical Girl	DEFINE:FocusedShotRange|0	DEFINE:BulletHellRange|0
+CLASS:Magical Girl	DEFINE:GhostMirageLevel|0	DEFINE:AMFRange|0	DEFINE:SensoryEnhancementRange|0
+CLASS:Magical Girl	BONUS:VAR|SensoryEnhancementRange|60
+CLASS:Magical Girl	BONUS:VAR|FocusedShotRange|if(FocusedShotRangeIncrease,400+40*MagicalGirlLVL,100+10*MagicalGirlLVL)
+CLASS:Magical Girl	BONUS:VAR|BulletHellRange|if(BulletHellRangeIncrease,100+10*MagicalGirlLVL,25+5*floor(MagicalGirlLVL/2))
 CLASS:Magical Girl	HD:8
 CLASS:Magical Girl	TYPE:Base.PC
 CLASS:Magical Girl	FACT:Abb|Mgl
 CLASS:Magical Girl	SOURCEPAGE:Magical_Girl_(3.5e_Class)
-CLASS:Magical Girl	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|CL/3
+CLASS:Magical Girl	BONUS:SAVE|BASE.Fortitude|if(GoodFortitudeSave,CL/2+2,CL/3)
+CLASS:Magical Girl	BONUS:SAVE|BASE.Reflex|if(GoodReflexSave,CL/2+2,CL/3)
 CLASS:Magical Girl	BONUS:SAVE|BASE.Will|CL/2+2
-CLASS:Magical Girl	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+CLASS:Magical Girl	BONUS:COMBAT|BASEAB|CL*3/4|TYPE=Base.REPLACE
 CLASS:Magical Girl	PREMULT:1,[!PREALIGN:LG,LN,LE],[PREVAREQ:BypassClassAlignment_Magical_Girl,1]
 
 CLASS:Magical Girl	STARTSKILLPTS:4
@@ -15,6 +23,8 @@ CLASS:Magical Girl	CSKILL:Acrobatics|Bluff|TYPE.Craft|Diplomacy|Disguise|Escape 
 1	ABILITY:FEAT|AUTOMATIC|Simple Weapon Proficiency
 1	ABILITY:FEAT|AUTOMATIC|Combat Casting
 1	ABILITY:Class|AUTOMATIC|Magical Girl
+1	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Active Formula
+1	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Passive Formula
 2	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Transformation Sequence
 2	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ All Night Long
 3	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Device
