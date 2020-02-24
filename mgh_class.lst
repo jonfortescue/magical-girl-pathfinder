@@ -18,7 +18,7 @@ CLASS:Magical Girl	BONUS:COMBAT|BASEAB|CL*3/4|TYPE=Base.REPLACE
 CLASS:Magical Girl	PREMULT:1,[!PREALIGN:LG,LN,LE],[PREVAREQ:BypassClassAlignment_Magical_Girl,1]
 
 CLASS:Magical Girl	STARTSKILLPTS:4
-CLASS:Magical Girl	CSKILL:Acrobatics|Bluff|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Handle Animal|Heal|Knowledge (Arcana)|TYPE.Perform|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device
+CLASS:Magical Girl	CSKILL:Acrobatics|Bluff|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Handle Animal|Heal|Knowledge (Arcana)|Perception|TYPE.Perform|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device
 
 1	ABILITY:FEAT|AUTOMATIC|Simple Weapon Proficiency
 1	ABILITY:FEAT|AUTOMATIC|Combat Casting
