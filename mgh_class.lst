@@ -23,8 +23,7 @@ CLASS:Magical Girl	CSKILL:Acrobatics|Bluff|TYPE.Craft|Diplomacy|Disguise|Escape 
 1	ABILITY:FEAT|AUTOMATIC|Simple Weapon Proficiency
 1	ABILITY:FEAT|AUTOMATIC|Combat Casting
 1	ABILITY:Class|AUTOMATIC|Magical Girl
-1	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Active Formula
-1	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Passive Formula
+1	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Formula
 2	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Transformation Sequence
 2	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ All Night Long
 3	ABILITY:Magical Girl Class Feature|AUTOMATIC|Magical Girl ~ Device

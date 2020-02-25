@@ -2,6 +2,10 @@ ABILITYCATEGORY:Magical Girl Class Feature	VISIBLE:QUALIFY	EDITABLE:YES			EDITPO
 ABILITYCATEGORY:Magical Girl Class Feature	CATEGORY:Special Ability				TYPE:Magical Girl Class Feature.MagicalGirlClassFeatures
 ABILITYCATEGORY:Magical Girl Class Feature	PLURAL:Magical Girl Class Features		DISPLAYLOCATION:Class Features
 
+ABILITYCATEGORY:Magical Girl Formula	VISIBLE:QUALIFY	EDITABLE:YES			EDITPOOL:YES	FRACTIONALPOOL:NO
+ABILITYCATEGORY:Magical Girl Formula	CATEGORY:Special Ability				TYPE:MagicalGirlFormula
+ABILITYCATEGORY:Magical Girl Formula	PLURAL:Magical Girl Formulae		DISPLAYLOCATION:Class Features
+
 ABILITYCATEGORY:Magical Girl Active Formula	VISIBLE:QUALIFY	EDITABLE:YES			EDITPOOL:YES	FRACTIONALPOOL:NO
 ABILITYCATEGORY:Magical Girl Active Formula	CATEGORY:Special Ability				TYPE:MagicalGirlActiveFormula
 ABILITYCATEGORY:Magical Girl Active Formula	PLURAL:Magical Girl Active Formulae		DISPLAYLOCATION:Class Features
@@ -9,3 +13,7 @@ ABILITYCATEGORY:Magical Girl Active Formula	PLURAL:Magical Girl Active Formulae	
 ABILITYCATEGORY:Magical Girl Passive Formula	VISIBLE:QUALIFY	EDITABLE:YES			EDITPOOL:YES	FRACTIONALPOOL:NO
 ABILITYCATEGORY:Magical Girl Passive Formula	CATEGORY:Special Ability				TYPE:MagicalGirlPassiveFormula
 ABILITYCATEGORY:Magical Girl Passive Formula	PLURAL:Magical Girl Passive Formulae	DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Magical Girl Vulnerability	VISIBLE:QUALIFY	EDITABLE:YES			EDITPOOL:YES	FRACTIONALPOOL:NO
+ABILITYCATEGORY:Magical Girl Vulnerability	CATEGORY:Special Ability				TYPE:MagicalGirlVulnerability
+ABILITYCATEGORY:Magical Girl Vulnerability	PLURAL:Magical Girl Vulnerabilities		DISPLAYLOCATION:Class Features
