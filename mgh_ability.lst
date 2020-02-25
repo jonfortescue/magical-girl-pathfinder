@@ -1,9 +1,6 @@
 Magical Girl	CATEGORY:Special Ability	TYPE:FavoredClass	VISIBLE:DISPLAY	STACK:NO	MULT:NO	BONUS:ABILITYPOOL|Favored Class Bonus|MagicalGirlLVL
 
 Magical Girl	CATEGORY:Class	DEFINE:Magical_Girl_CFP_Level|0	DEFINE:MagicalGirlClassSelection|0	DEFINE:Pool_Magical_Girl_Class_Selection|0
-#	ABILITY:Magical Girl Archetype|AUTOMATIC|Archetype Magical Girl
-#	ABILITY:Class|AUTOMATIC|Magical Girl ~ Standard Class|!PREABILITY:1,CATEGORY=CLASS,TYPE.AltMagicalGirlChoice
-#	BONUS:VAR|Barbarian_CFP_Level|BarbarianLVL|TYPE=Base
 
 CATEGORY=Internal|Default.MOD	DEFINE:BypassClassAlignment_Magical_Girl|0	BONUS:VAR|BypassClassAlignment_Magical_Girl|BypassClassAlignment_All_Class|TYPE=Bypass
 
