@@ -17,3 +17,7 @@ ABILITYCATEGORY:Magical Girl Passive Formula	PLURAL:Magical Girl Passive Formula
 ABILITYCATEGORY:Magical Girl Vulnerability	VISIBLE:QUALIFY	EDITABLE:YES			EDITPOOL:YES	FRACTIONALPOOL:NO
 ABILITYCATEGORY:Magical Girl Vulnerability	CATEGORY:Special Ability				TYPE:MagicalGirlVulnerability
 ABILITYCATEGORY:Magical Girl Vulnerability	PLURAL:Magical Girl Vulnerabilities		DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Magical Girl Device	VISIBLE:QUALIFY	EDITABLE:YES			EDITPOOL:YES	FRACTIONALPOOL:NO
+ABILITYCATEGORY:Magical Girl Device	CATEGORY:Special Ability				TYPE:MagicalGirlDevice
+ABILITYCATEGORY:Magical Girl Device	PLURAL:Magical Girl Devices		DISPLAYLOCATION:Class Features

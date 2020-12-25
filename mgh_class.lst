@@ -1,5 +1,6 @@
 CLASS:Magical Girl	MAXLEVEL:20
 CLASS:Magical Girl	DEFINE:MagicalGirlLVL|0	BONUS:VAR|MagicalGirlLVL|CL
+CLASS:Magical Girl	DEFINE:CasterLevel_Highest|0	BONUS:VAR|CasterLevel_Highest|CL
 CLASS:Magical Girl	DEFINE:GoodReflexSave|0	DEFINE:GoodFortitudeSave|0
 CLASS:Magical Girl	DEFINE:FocusedShotRangeIncrease|0	DEFINE:BulletHellRangeIncrease|0
 CLASS:Magical Girl	DEFINE:FocusedShotRange|0	DEFINE:BulletHellRange|0
