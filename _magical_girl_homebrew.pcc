@@ -23,15 +23,15 @@ COPYRIGHT:Magical Girl Homebrew, Copyright Jon Fortescue
 ABILITYCATEGORY:mgh_abilitycategories.lst
 ABILITY:mgh_ability.lst
 CLASS:mgh_class.lst
+EQUIPMENT:mgh_equipment.lst
+# ARMORPROF:mgh_profs_armor.lst
 # COMPANIONMOD:mpc_companionmods.lst
 # DEITY:mpc_deities.lst
 # DOMAIN:mpc_domains.lst
-# EQUIPMENT:mpc_equip_arms_armor.lst
 # EQUIPMENT:mpc_equip_general.lst
 # EQUIPMOD:mpc_equipmods.lst
 # KIT:mpc_kits.lst
 # LANGUAGE:mpc_languages.lst
-# ARMORPROF:mpc_profs_armor.lst
 # SHIELDPROF:mpc_profs_shield.lst
 # WEAPONPROF:mpc_profs_weapon.lst
 # RACE:mpc_races.lst
