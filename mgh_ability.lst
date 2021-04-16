@@ -11,6 +11,7 @@ Device					KEY:Magical Girl ~ Device					CATEGORY:Special Ability	TYPE:MagicalGi
 Defense Data			KEY:Magical Girl ~ Defense Data				CATEGORY:Special Ability	TYPE:MagicalGirlAbility.MagicalGirlClassFeatures.SpecialQuality.Extraordinary	DESC:Over time, a magical girl learns to enhance their battle outfit so as to cut down on the chinks that allow small but hostile chemicals and life forms through.		DESC:At 7th level a magical girl becomes immune to all diseases, including supernatural and magical diseases, so long as her transformation sequence is active.
 Suffused Transformation	KEY:Magical Girl ~ Suffused Transformation	CATEGORY:Special Ability	TYPE:MagicalGirlAbility.MagicalGirlClassFeatures.SpecialQuality.Extraordinary	DESC:At 15th level, the magic suffusing the magical girl's armour is strong enough to serve as its own defence, making it difficult for magical attacks to penetrate. 	DESC: The magical girl's transformation sequence applies against touch attacks.
 Environmental Seal		KEY:Magical Girl ~ Environmental Seal		CATEGORY:Special Ability	TYPE:MagicalGirlAbility.MagicalGirlClassFeatures.SpecialQuality.Extraordinary	DESC:At 18th level, a magical girl becomes so precise with the creation of her battle outfit that it becomes a bubble of space completely disconnected from the world around her.	DESC:She becomes immune to the following environmental effects as long as her transformation sequence is active: Nonlethal damage from cold. Nonlethal damage from heat. Suffocation or lack of air (and since she does not need to breathe, she is also immune to drowning and smoke inhalation).
+Legendary Form			KEY:Magical Girl ~ Legendary Form			CATEGORY:Special Ability	TYPE:MagicalGirlAbility.MagicalGirlClassFeatures.SpecialQuality.Extraordinary	BONUS:STAT|STR,DEX,CON,INT,WIS,CHA|2|PREARMORTYPE:1,TYPE.MagicalGirlLegendaryForm	BONUS:SAVE|ALL|2|PREARMORTYPE:1,TYPE.MagicalGirlLegendaryForm	DESC:At 20th level, a magical girl 
 
 ###Block: Magical Girl Abilities Improvements
 Improved Transformation		KEY:Magical Girl ~ Improved Transformation		CATEGORY:Special Ability	TYPE:MagicalGirlClassFeatures.SpecialQuality.Supernatural	DESC:At 6th level, the magical girl may invoke her transformation sequence as a standard action.
@@ -37,6 +38,8 @@ CATEGORY=Special Ability|Magical Girl ~ Formula.MOD		BONUS:ABILITYPOOL|Magical G
 
 CATEGORY=Special Ability|Magical Girl ~ Formula.MOD		BONUS:ABILITYPOOL|Magical Girl Formula|1|PREVARGTEQ:MagicalGirlLVL,19
 CATEGORY=Special Ability|Magical Girl ~ Formula.MOD		BONUS:ABILITYPOOL|Magical Girl Formula|1|PREVARGTEQ:MagicalGirlLVL,20
+
+CATEGORY=Special Ability|Magical Girl ~ Legendary Form.MOD	BONUS:ABILITYPOOL|Magical Girl Legendary Formula|1|PREVARGTEQ:MagicalGirlLVL,20
 
 ###Block: Devices
 Non-Weapon Device		KEY:Magical Girl ~ Non-Weapon Device		CATEGORY:Special Ability	TYPE:SpecialQuality.MagicalGirlDevice	MULT:NO		STACK:NO	PREVARGTEQ:MagicalGirlLVL,3	DESC:A device which is not a weapon at all.
@@ -86,6 +89,10 @@ Awesomeness By Analysis	KEY:Magical Girl ~ Awesomeness By Analysis	CATEGORY:Spec
 ###Block: Passive Formulae Upgrades
 Sensory Enhancement Upgrade Range		KEY:Magical Girl ~ Sensory Enhancement Upgrade Range		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MagicalGirlFormula.MagicalGirlPassiveFormula	PREABILITY:1,CATEGORY=Special Ability,Magical Girl ~ Sensory Enhancement	MULT:YES	STACK:YES	CHOOSE:NOCHOICE	BONUS:VAR|SensoryEnhancementRange|60	DESC:Increases the range of Sensory Enhancement.
 Sensory Enhancement Upgrade Blindsight	KEY:Magical Girl ~ Sensory Enhancement Upgrade Blindsight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MagicalGirlFormula.MagicalGirlPassiveFormula	PREABILITY:1,CATEGORY=Special Ability,Magical Girl ~ Sensory Enhancement							BONUS:VISION|Blindsight|SensoryEnhancementRange			DESC:Upgrades Sensory Enhancement's Darkvision to Blindsight.
+
+###Block: Legendary Formulae
+Ultimate Strike		KEY:Magical Girl ~ Ultimate Strike		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.MagicalGirlAbility.MagicalGirlLegendaryFormula	DESC:Thrice per Legendary Transformation, a magical girl can declare an Ultimate Strike at the beginning of her turn. On each successful attack, she automatically deals maximum damage, including any critical damage. (This only applies to attacks with to-hit rolls, not spell-like abilities which require saves.)
+Fragtime			KEY:Magical Girl ~ Fragtime				CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike.MagicalGirlAbility.MagicalGirlLegendaryFormula		SPELLS:Innate|TIMES=6|CASTERLEVEL=MagicalGirlLVL|Time Stop,10+CHA		DESC:Six times per Legendary Transformation, a magical girl can use Time Stop as a spell-like ability.
 
 ###Block: Drawbacks
 CATEGORY=Internal|Default.MOD	BONUS:ABILITYPOOL|Magical Girl Vulnerability|4|PREVARGTEQ:MagicalGirlLVL,1|PREABILITY:1,CATEGORY=Special Ability,TYPE.MagicalGirlVulnerability

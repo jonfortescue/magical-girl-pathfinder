@@ -15,4 +15,17 @@ with modifications as follows:
 
 ## To Do
 * Add teamwork feats?
-* Add level 20 capstone ability
+
+## Level 20 Capstone &ndash; Legendary Form & Legendary Formula
+Once per day, while the Transformation Sequence is active, a magical girl may transform into a Legendary form. While in Legendary form, she
+gains a +2 bonus to all her ability scores and saves and rolls d8s for her Formulae damage rather than d6s, but she burns through her time
+she can stay transformed at five times the normal rate. Also while transformed, she gains access to one Legendary Formula that she can
+select upon reaching level 20.
+
+### Ultimate Strike
+Thrice per Legendary Transformation, a magical girl can declare an Ultimate Strike at the beginning of her turn. On each successful attack,
+she automatically deals maximum damage, including any critical damage. (This only applies to attacks with to-hit rolls, not spell-like
+abilities which require saves.)
+
+### Fragtime
+Six times per Legendary Transformation, a magical girl can use Time Stop as a spell-like ability.
